@@ -18,4 +18,3 @@ rm(tempDF)
 
 haven::write_dta(DF,
           here::here("00_Data/JNFS_wage.dta"))
-

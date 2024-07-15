@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.dta
+.xlsx
+.csv
+02_Analyses.Rproj

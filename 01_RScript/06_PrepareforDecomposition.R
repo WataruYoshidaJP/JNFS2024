@@ -60,4 +60,3 @@ DF_use <-
          SchoolGrd6GrpFemale_JC = if_else(SchoolGrd6GrpFemale == 4, 1, 0),
          SchoolGrd6GrpFemale_Univ = if_else(SchoolGrd6GrpFemale == 5, 1, 0),
          SchoolGrd6GrpFemale_Gra = if_else(SchoolGrd6GrpFemale == 6, 1, 0)) 
-
