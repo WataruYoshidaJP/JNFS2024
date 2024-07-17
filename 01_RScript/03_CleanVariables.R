@@ -132,3 +132,4 @@ tempDF <-
 tempDF <-
   tempDF |> 
   dplyr::mutate(across(c("MarStat2W", "MarStat2H", "StrMarStat"), ~if_else(. == 9, NA, .)))   
+
