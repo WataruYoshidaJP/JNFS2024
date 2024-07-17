@@ -3,7 +3,6 @@
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
 
 library(here)
-library(renv)
 library(tidyverse)
 library(readxl)
 library(haven)

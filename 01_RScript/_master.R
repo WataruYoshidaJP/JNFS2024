@@ -9,6 +9,14 @@ rm(list = ls())
 
 ScriptDir <- "01_RScript/"
 
+## Restore environments ----
+if (!require("renv")) {
+  install.packages("renv")
+  library(renv)
+  }
+renv::restore()
+
+
 ## 1 Preparation ----
 source(paste0(ScriptDir, "01_Libraries&Parameters.R"))
 source(paste0(ScriptDir, "02_ImportData.R"))
